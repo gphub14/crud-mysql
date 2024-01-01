@@ -18,4 +18,5 @@ public class UserController {
 	User newUser(@RequestBody User newUser) {
 		return userRepo.save(newUser);
 	}
+	
 }
